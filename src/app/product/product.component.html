@@ -1,0 +1,24 @@
+<app-category></app-category>
+ <div class="row">
+  <ng-template #noProduct><div class="alert alert-primary" role="alert">
+    Couldn't find any products under this category.
+  </div></ng-template>
+
+
+  <h3 *ngIf="products.length > 0; else:noProduct">{{title}}</h3>
+  <div *ngFor= "let i of products" class="productBox" style="width: 18rem;">
+    <img [src]="i.imageUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{i.name}}</h5>
+      <p class="card-text">{{i.description}}</p>
+      <a  (click)="addToCart(i)" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+
+  <ng-template [ngIf]="products.length < 0">
+    <div class="alert alert-primary" role="alert">
+      Couldn't find any products under this category.
+    </div>
+  </ng-template>
+
+</div>

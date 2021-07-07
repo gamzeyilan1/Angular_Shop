@@ -1,0 +1,82 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "X Brand Laptop",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 2,
+      "name": "Game Console",
+      "price": 2500,
+      "categoryId": 3,
+      "description": "X Brand Game Console",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 3,
+      "name": "Phone",
+      "price": 2500,
+      "categoryId": 4,
+      "description": "X Brand Phone",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 4,
+      "name": "Earphones",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "X Brand Earphones",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 5,
+      "name": "Speaker",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "X Brand Speaker",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "id": 6,
+      "name": "Headphones",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "X Brand Headphones",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    {
+      "name": "Phone 2",
+      "description": "X Brand Phone, Version Y.",
+      "imageUrl": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "price": "20",
+      "categoryId": "4",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Computers"
+    },
+    {
+      "id": 2,
+      "name": "Computer Accessories"
+    },
+    {
+      "id": 3,
+      "name": "Gaming, Hobbies and Entertainment"
+    },
+    {
+      "id": 4,
+      "name": "Telephones and Tablets"
+    },
+    {
+      "id": 5,
+      "name": "Photography"
+    }
+  ]
+}
